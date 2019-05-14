@@ -1,0 +1,504 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0 0;
+}
+
+.logo {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+      
+}
+
+.graficlogo {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: auto;
+    width: 800px;
+}
+
+.topnav {
+    background-color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.topnav a {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    font-weight: bold;
+    color: #D90404;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .2);
+    border-bottom: 1px solid black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.page-container {
+    background-image: url(img/fon%202.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width="100%"height="100%";
+    margin-top: 40px;
+}
+
+.text-container {
+    padding-top: 70px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    text-align: center;
+}
+
+.zagolovok1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.7);
+    font-family: "Arial", sans-serif;
+}
+
+.zagolovok2 {
+    font-weight: bold;
+    padding-top: 60px;
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    padding-top: 45px;
+    text-align: center;
+}
+h3{
+    color:black;
+    line-height: 35px;
+    
+}
+.zakon-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    
+}
+
+.zakon-item261 {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 20px;;
+    color: #555;
+    padding: 25px;
+    border: 5px solid #594C45;
+    bottom: 10px;
+}
+
+.zakon-item399 {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 20px;
+    color: #555;
+    padding: 25px;
+    border: 5px solid #A69C94;
+    bottom: 10px;
+}
+
+.sankcuu {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 20px;
+    color: #555;
+    padding: 25px;
+    border: 5px solid #594C45;
+    bottom: 10px;
+}
+
+.go-work{
+   background-color:  #A69C94;
+}
+.work-container {
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+
+.work {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    width: 30%;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+/*форма*/
+.feedback {
+/*    background: radial-gradient(#648880, #293f50);*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+
+.feedback-form {
+    background-position: 100% 40px;
+    text-align: center;
+
+}
+
+.contact {
+    text-align: center;
+}
+
+.feedback-form-group label {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 54px;
+    padding: 9px 15px;
+    font: inherit;
+    color: inherit;
+    border: 2px solid #d5d5d5;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+    border-color: #bebebe;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    border-color: #8d745a;
+}
+
+.feedback-form textarea {
+    display: block;
+    min-height: 150px;
+    resize: none;
+}
+
+.checkbox-area {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 17px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.checkbox-area input[type="checkbox"] {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.feedback-form .btn {
+    height: 45px;
+    font-size: 17px;
+    width: 200px;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #A69C94;
+    border: 2px solid black;
+    font-family: "Arial", sans-serif;
+}
+
+.feedback-form .btn:hover {
+    background-color: #5e5e5e;
+}
+
+.feedback-form .btn:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+/*форма*/
+
+/*стоимость*/
+
+.price-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-collapse: collapse;
+    line-height: 35px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+
+}
+
+.price-list th {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-list td {
+    border: 1px solid #594C45;
+}
+
+.price-list th,
+.price-list td {
+    padding: 10px 17px;
+}
+
+.price-list .price-number {
+
+    width: 15px;
+    text-align: center;
+}
+
+.price-list .price-name {
+    width: 450px;
+    color: #000000;
+}
+
+.price-list .price-master {
+    width: 150px;
+    
+}
+
+.price-list .price-cost {
+    width: 150px;
+}
+
+/*стоимость*/
+/*результат работы*/
+.result-work {
+    
+    background-color: #c3c3c3;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.result-list {
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+}
+
+.result-page {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    padding-top: 30px;
+    background-size: cover;
+
+}
+
+.list-item {
+    border-left: 5px solid red;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    line-height: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/*результат работы*/
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    border-top: 4px solid black;
+    background-color: #5e5e5e;
+}
+
+
+
+
+
+.toTop
+{
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+.toTop img{
+    padding-top: 5px;;
+}
+    
+
+.toTop::after {
+  font-size: 2em;
+  line-height: 400px;
+  color: red;
+}
+.toTop:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+.toTop:active {
+  background-color: #555;
+}
+.toTop {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: black;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .zagolovok1 {
+        font-size: 45px;
+
+    }
+
+    .zagolovok2 {
+        font-size: 25px;
+    }
+
+    .work-item {
+        width: 45%;
+    }
+
+    .result-list {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
