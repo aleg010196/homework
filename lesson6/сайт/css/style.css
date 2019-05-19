@@ -1,0 +1,26 @@
+body{
+    background-color: #f6f6f6;
+    
+}
+img{
+    float: left;
+    padding-right: 150px;
+}
+.container{
+    background-color: white;
+    padding: 50px;
+    height: 370px;
+    width: 1000px;
+    margin-left: 25%;
+    margin-top: 230px;
+}
+button{
+    margin-top: 80px;
+    padding: 10px 30px;
+    background-color: #ec744a;
+    color: white;
+    border: none;
+}
+h1{
+    text-decoration: none;
+}
