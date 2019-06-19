@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-image: url("/img/header/header-bg.png");
+  background-image: url("../../src/img/header/header-bg.png");
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .hero {
-  background-image: url("./src/img/hero/hero-bg.png"), url("./img/hero/hero-bg-black.png");
+  background-image: url("../../src/img/hero/hero-bg.png"), url("../../src/img/hero/hero-bg-black.png");
   height: 742px;
   margin-bottom: 104px;
   background-repeat: no-repeat;
@@ -212,27 +212,27 @@ body {
 }
 
 .service__card__1 {
-  background-image: url("/src/img/service/service1.jpg");
+  background-image: url("../../src/img/service/service1.jpg");
 }
 
 .service__card__2 {
-  background-image: url("/src/img/service/service2.jpg");
+  background-image: url("../../src/img/service/service2.jpg");
 }
 
 .service__card__3 {
-  background-image: url("/src/img/service/service3.jpg");
+  background-image: url("../../src/img/service/service3.jpg");
 }
 
 .service__card__4 {
-  background-image: url("/src/img/service/service1.jpg");
+  background-image: url("../../src/img/service/service1.jpg");
 }
 
 .service__card__5 {
-  background-image: url("/src/img/service/service2.jpg");
+  background-image: url("../../src/img/service/service2.jpg");
 }
 
 .service__card__6 {
-  background-image: url("/src/img/service/service3.jpg");
+  background-image: url("../../src/img/service/service3.jpg");
 }
 
 .service__subtitle {
@@ -264,7 +264,7 @@ body {
 }
 
 .advantages {
-  background-image: url("/src/img/advantages/advantages-bg.png");
+  background-image: url("../../src/img/advantages/advantages-bg.png");
   background-position: left;
   background-repeat: no-repeat;
   margin-bottom: 117px;
