@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-image: url("./img/header/header-bg.png");
+  background-image: url("/img/header/header-bg.png");
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .hero {
-  background-image: url("./img/hero/hero-bg.png"), url("./img/hero/hero-bg-black.png");
+  background-image: url("./src/img/hero/hero-bg.png"), url("./img/hero/hero-bg-black.png");
   height: 742px;
   margin-bottom: 104px;
   background-repeat: no-repeat;
