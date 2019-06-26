@@ -52,7 +52,7 @@ body {
 }
 
 .navbar {
-  background-image: url("/src/img/header/header-bg.png");
+  background-image: url("../../src/img/header/header-bg.png");
   background-position: right;
   background-repeat: no-repeat;
 }
