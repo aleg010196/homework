@@ -1,0 +1,102 @@
+.service
+    background-color:  #f1f1f1
+    &__button
+        width: 244px
+        height: 58px
+        margin-top: -25px
+        font-size: 28px
+        font-weight: 400
+        line-height: 28px
+        text-transform: uppercase
+        &__text
+            display: block
+            transition: 0.2s
+            &_hide
+                display: none
+                transition: 0.2s
+       
+        
+    &-block
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        margin-top: 75px
+        margin-bottom: 116px
+        
+
+    &__card
+        height: 236px
+        width: 377px
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-left: 0px
+        margin-bottom: 25px
+        transition: 0.3s
+        filter: grayscale(0.85)
+        &:hover
+            filter: grayscale(0)
+            transition: 0.3s
+            .service__subtitle
+                color: black
+                transition: 0.3s
+        &:last-child
+            margin-bottom: 117px
+        &__1
+            background-image: url('../img/service/service1.jpg')
+        &__2
+            background-image: url('../img/service/service2.jpg')
+        &__3
+            background-image: url('../img/service/service3.jpg')
+        &__4
+            background-image: url('../img/service/service1.jpg')
+        &__5
+            background-image: url('../img/service/service2.jpg')
+        &__6
+            background-image: url('../img/service/service3.jpg')
+    &__subtitle
+        padding-top: 63px
+        padding-bottom: 32px
+        color: #fcfafa
+        font-size: 20px
+        font-weight: 400
+        line-height: 26px
+        text-align: center
+        transition: 0.3s
+    &__button__item 
+        padding-left: 10px
+        padding-top: 11px
+        padding-right: 19px
+        padding-bottom: 10px
+        font-size: 15px
+        font-weight: 400
+        line-height: 15.93px
+        text-transform: uppercase
+        width: 140px
+        &:hover
+            background-color: black
+            color: white
+        &:focus
+            .service__button__text
+                display: none
+                transition: 0.2s
+            .service__button__text_hide
+                display: block
+                transition: 0.2s
+
+@media (max-width: 1200px)
+    .service
+        // &-container
+        //     max-width: 800px
+        //     margin: auto
+@media (max-width: 768px)
+    .service
+        // &-container
+        //     max-width: 350px
+        //     margin: auto
+        &__card
+            margin: auto
+            margin-bottom: 15px
+        &__button
+            width: 100%
+            font-size: 22px
