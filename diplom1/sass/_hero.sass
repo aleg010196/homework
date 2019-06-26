@@ -1,0 +1,109 @@
+.main
+    margin-bottom: 104px
+
+.hero
+    width: 100%
+    height: 742px
+    background-repeat: no-repeat
+    background-size: cover
+    &-1
+        background-image: url("/src/img/hero/hero-bg.png"),url("/src/img/hero/hero-bg-black.png")
+    &-2
+        background-image: url("/src/img/hero/hero-bg.png"),url("/src/img/hero/hero-bg-black.png")
+    &-3
+        background-image: url("/src/img/hero/hero-bg.png"),url("/src/img/hero/hero-bg-black.png")
+    &-4
+        background-image: url("/src/img/hero/hero-bg.png"),url("/src/img/hero/hero-bg-black.png")
+    &-container
+        max-width: 1159px
+        margin: auto
+    &-block
+        position: absolute
+        background-repeat: no-repeat
+    &-text
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        width: 100%
+        &__title
+            padding-top: 100px
+            max-width: 1158px
+            color: #ffc800
+            font-size: 35px
+            font-weight: 400
+            line-height: 55px
+            text-transform: uppercase 
+            font-family: 'Proxima Nova Semibold'
+        &__subtitle
+            padding-top: 22px
+            max-width: 650px
+            color: #fffffe
+            font-family: Proxima Nova Regular
+            font-size: 35px
+            font-weight: 400
+            line-height: 55px
+        &__p
+            padding-top: 41px
+            max-width: 1106px
+            opacity: 0.42
+            color: #fffffe
+            font-family: "Proxima Nova Regular"
+            font-size: 20px
+            font-weight: 300
+            line-height: 28px
+    &__button
+        margin-top: 53px
+        width: 185px
+        height: 44px
+        margin-bottom: 150px
+    
+
+
+@media (max-width: 1200px)
+    .hero
+        &-container
+            max-width: 768px
+        &-text
+            margin: auto
+
+@media (max-width: 920px)
+    .hero
+        &-container
+            max-width: 520px
+        &-text
+            margin: auto
+            &__title
+                padding-top: 30px
+
+@media (max-width: 768px)
+    .hero
+        &-container
+            max-width: 350px
+        &-text
+            margin: auto
+            &__title
+                font-size: 25px
+                font-weight: 200
+                line-height: 35px
+                padding-top: 50px
+            &__subtitle
+                font-size: 25px
+                font-weight: 200
+                line-height: 35px
+                padding-top: 50px
+            &__p
+                font-size: 18px
+                font-weight: 300
+                line-height: 28px
+        &__button
+            width: 100%
+
+           
+    
+    
+
+  
+           
+
+        
+        
