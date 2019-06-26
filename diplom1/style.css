@@ -154,15 +154,15 @@ body {
 }
 
 .hero-1 {
-  background-image: url("/src/img/hero/hero-bg.png"), url("/src/img/hero/hero-bg-black.png");
+  background-image: url("../../src/img/hero/hero-bg.png"), url("/src/img/hero/hero-bg-black.png");
 }
 
 .hero-2 {
-  background-image: url("/src/img/hero/hero-bg.png"), url("/src/img/hero/hero-bg-black.png");
+  background-image: url("../src/img/hero/hero-bg.png"), url("/src/img/hero/hero-bg-black.png");
 }
 
 .hero-3 {
-  background-image: url("/src/img/hero/hero-bg.png"), url("/src/img/hero/hero-bg-black.png");
+  background-image: url("./src/img/hero/hero-bg.png"), url("/src/img/hero/hero-bg-black.png");
 }
 
 .hero-4 {
